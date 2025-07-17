@@ -12,8 +12,6 @@ const cors = require('cors');
 app.use(cors());  
 app.use(express.json());
 
-const url="mongodb+srv://saivarshithmahendra7:sai12345678@cluster0.fift1ue.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-const client= new MongoClient(url);
 
 async function connecttoDB() {
     try{
